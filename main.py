@@ -140,7 +140,7 @@ def removeProduct():
                 
                 if item=="back":
                     placeOrder()
-                elif item!=order[3]:
+                elif item!=order[1]:
                     lines.append(row)
                 else:
                     print(f"The product {item} removed from the orders")
